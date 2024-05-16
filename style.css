@@ -7,3 +7,81 @@
 body{
     font-family: "PT Sans", sans-serif;
 }
+
+.container{
+    margin: 0 10%;
+    /* debug */
+    height: 100%;
+    background-color: darkorchid;    
+}
+
+
+/* HEADER */
+header{
+    height: 80px;
+    background-color: #0084fd;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo, #menu{
+    /* debug */
+    min-width: 10%;
+    height: 40px;
+    background-color: blue;
+}
+
+#menu{
+    text-align: right;
+}
+
+#hamburger{
+    /* debug */
+    height: 10px;
+    background-color: brown;
+}
+
+#menu #main-nav{
+    display: none;
+}
+
+
+
+/* RESPONSIVE TABLET */
+@media screen and (min-width:768px) {
+    
+}
+
+
+/* RESPONSIVE DESKTOP */
+@media screen and (min-width:1025px) {
+
+    /* regole generali */
+    .container{
+        margin: 0 20%;
+    }
+
+    /* HEADER */
+    #hamburger{
+        display: none;
+    }
+
+    #menu #main-nav{
+        display: block;
+    }
+
+    #main-nav li{
+        display: inline-block;
+        /* debug */
+        width: 20px;
+        height: 10px;
+        background-color: brown;
+    }
+    
+    
+
+}
