@@ -100,7 +100,9 @@ section{
 }
 
 /* sezione About Us */
-
+#about .container{
+    width: 90%;
+}
 
 
 /* RESPONSIVE TABLET */
@@ -132,6 +134,22 @@ section{
     #benefits .card{
         width: calc(50% - 15px);
     } 
+
+    /* sezione About Us */
+    #about .container{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #about .card{
+        width: 35%;
+    }
+
+    #about .card.big{
+        width: 60%;
+    }
     
 }
 
@@ -166,6 +184,7 @@ section{
         width: 60%;
         display: flex;
         justify-content: space-between;
+        align-items: flex-end;
         /* debug */
         height: 400px;
         background-color: burlywood;
@@ -181,11 +200,5 @@ section{
     #benefits .card{
         width: calc(100% / 3 - 15px);
     }
-
-
-
-
-    
-    
 
 }
