@@ -113,13 +113,30 @@ section{
     background-color: #b5ddff;
 }
 
-#demo .testo{
-    margin-bottom: 25px;
+
+        /* regole immagine */
+#demo .immagine{
+    margin-top: 30px;
 }
 
 #demo img{
     width: 220px;
     display: block;
+}
+
+        /* regole testo */
+#demo h4{
+    color: #0084fd;
+}
+
+#demo p{
+    color: #5e7385;
+}
+
+#demo .icon{
+    color: #0084fd;
+    font-size: 80px;
+    margin-bottom: 10px;
 }
 
 /* section Strategic Planning */
@@ -235,11 +252,18 @@ footer .container{
     }
 
     /* section Get a demo application */
-
     #demo .card.big{
         display: flex;
     }
-    
+
+    #demo .testo{
+        align-self: flex-start;
+    }
+
+    #demo .immagine{
+        align-self: flex-end;
+    }
+
     /* section Strategic Planning */
     #strategic .container{
         display: flex;
