@@ -74,6 +74,21 @@ section{
     width: 90%;
 }
 
+/* section We are committed experts partners */
+#partners .container{
+    width: 90%;
+}
+
+#partners .card{
+    background-color: #9792e4;
+    /* debug */
+    border: 2px solid black;
+}
+
+#partners .container .card:first-child{
+    background-color: white;
+}
+
 /* RESPONSIVE TABLET */
 @media screen and (min-width:768px) {
     /* MAIN */
@@ -141,6 +156,8 @@ section{
         background-color: brown;
         min-width: 300px;
     }
+
+
 
     
     
