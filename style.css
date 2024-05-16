@@ -6,11 +6,34 @@
 
 body{
     font-family: "PT Sans", sans-serif;
+    color: white;
 }
 
+/* regole generali */
 .container{
     margin: 0 auto;
+    width: 90%;
     /* debug */
+}
+
+.card{
+    margin: 20px 0;
+    border-radius: 15px;
+    /* debug */
+    min-height: 160px;
+    border: 2px solid black;
+}
+
+.lilac{
+    background-color: #9792e4;
+}
+
+.white{
+    background-color: white;
+}
+
+.txt-cntr{
+    text-align: center;
 }
 
 
@@ -21,10 +44,9 @@ header{
 }
 
 header .container{
-    width: 90%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     /* debug */
     background-color: darkorchid;    
 }
@@ -53,66 +75,35 @@ section{
     padding: 5% 0;
 }
 /* SECTION Get a demo application */
-#demo .container{
-    width: 90%;
-}
-
-.card{
+#demo .card{
     background-color: #b5ddff;
-    margin: 20px 0;
-    border-radius: 15px;
-    /* debug */
-    min-height: 160px;
 }
 
 /* section Strategic Planning */
-#strategic{
-    background-color: #9792e4;
-}
 
-#strategic .container{
-    width: 90%;
-}
 
 /* section We are committed experts partners */
-#partners .container{
-    width: 90%;
-}
 
 #partners .card{
-    background-color: #9792e4;
     /* debug */
     border: 2px solid black;
 }
 
-#partners .container .card:first-child{
-    background-color: white;
-}
-
 /* sezione Benefits of working with us */
 #benefits{
-    background-color: #9792e4;
 }
 
-
-#benefits .container{
-    width: 90%;
-}
 
 /* sezione About Us */
-#about .container{
-    width: 90%;
-}
+
 
 /* sezione GET STARTED */
 #started{
-    background-color: #9792e4;
     /* debug */
     min-height: 200px;
 }
 
 #started .card{
-    text-align: center;
 }
 
 /* footer */
@@ -123,7 +114,6 @@ footer{
 }
 
 footer .container{
-    text-align: center;
 }
 
 
@@ -203,7 +193,6 @@ footer .container{
 
     /* section Strategic Planning */
     #strategic .container{
-        width: 60%;
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
@@ -222,5 +211,11 @@ footer .container{
     #benefits .card{
         width: calc(100% / 3 - 15px);
     }
+
+    /* sezione About Us */
+    #about .container{
+        width: 55%;
+    }
+
 
 }
