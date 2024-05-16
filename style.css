@@ -12,13 +12,14 @@ body{
 /* regole generali */
 .container{
     margin: 0 auto;
-    width: 90%;
+    width: 85%;
     /* debug */
 }
 
 .card{
     margin: 20px 0;
     border-radius: 15px;
+    padding: 30px 25px 0 25px;
     /* debug */
     min-height: 160px;
     border: 2px solid black;
@@ -36,6 +37,39 @@ body{
     text-align: center;
 }
 
+/* regole button */
+button{
+    padding: 10px 50px;
+    border-radius: 20px;
+    background: none;
+    border: none;
+}
+
+button.blue{
+    background-color: #0084fd;
+    color: white;
+    font-size: 15px;
+}
+
+
+/* regole testo */
+h4{
+    font-size: 1.3rem;
+}
+
+p{
+    line-height: 25px;
+    margin: 25px 0;
+    font-size: 14px;
+}
+
+.txt-blue{
+    color: #0084fd;
+}
+
+.txt-gray{
+    color: #5e7385;
+}
 
 /* HEADER */
 header{
@@ -77,6 +111,15 @@ section{
 /* SECTION Get a demo application */
 #demo .card{
     background-color: #b5ddff;
+}
+
+#demo .testo{
+    margin-bottom: 25px;
+}
+
+#demo img{
+    width: 220px;
+    display: block;
 }
 
 /* section Strategic Planning */
@@ -191,6 +234,12 @@ footer .container{
         background-color: brown;
     }
 
+    /* section Get a demo application */
+
+    #demo .card.big{
+        display: flex;
+    }
+    
     /* section Strategic Planning */
     #strategic .container{
         display: flex;
