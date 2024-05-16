@@ -9,10 +9,8 @@ body{
 }
 
 .container{
-    margin: 0 10%;
+    margin: 0 auto;
     /* debug */
-    height: 100%;
-    background-color: darkorchid;    
 }
 
 
@@ -23,9 +21,12 @@ header{
 }
 
 header .container{
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* debug */
+    background-color: darkorchid;    
 }
 
 #logo, #menu{
@@ -41,18 +42,59 @@ header .container{
 
 #hamburger{
     /* debug */
-    height: 10px;
-    background-color: brown;
 }
 
 #menu #main-nav{
     display: none;
 }
 
+/* MAIN */
+section{
+    padding: 5% 0;
+}
+/* SECTION Get a demo application */
+#demo .container{
+    width: 90%;
+}
 
+.card{
+    background-color: #b5ddff;
+    margin: 20px 0;
+    border-radius: 15px;
+    /* debug */
+    min-height: 160px;
+}
+
+/* section Strategic Planning */
+#strategic{
+    background-color: #9792e4;
+}
+
+#strategic .container{
+    width: 90%;
+}
 
 /* RESPONSIVE TABLET */
 @media screen and (min-width:768px) {
+    /* MAIN */
+
+    /* section Get a demo application */
+    #demo .card-row{
+        display: flex;
+        gap: 20px;
+    }
+
+    #demo .card{
+        width: calc(100% / 3 - 10px);
+        margin-bottom: 20px;
+    }
+
+    #demo .card.big{
+        width: calc(100% / 3 * 2);
+    }
+
+
+    
     
 }
 
@@ -62,10 +104,12 @@ header .container{
 
     /* regole generali */
     .container{
-        margin: 0 20%;
-    }
+        width: 60%;
+        }
 
     /* HEADER */
+    
+
     #hamburger{
         display: none;
     }
@@ -81,6 +125,23 @@ header .container{
         height: 10px;
         background-color: brown;
     }
+
+    /* section Strategic Planning */
+    #strategic .container{
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        /* debug */
+        height: 400px;
+        background-color: burlywood;
+    }
+
+    #strategic .card{
+        /* debug */
+        background-color: brown;
+        min-width: 300px;
+    }
+
     
     
 
