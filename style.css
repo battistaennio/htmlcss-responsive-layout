@@ -89,6 +89,20 @@ section{
     background-color: white;
 }
 
+/* sezione Benefits of working with us */
+#benefits{
+    background-color: #9792e4;
+}
+
+
+#benefits .container{
+    width: 90%;
+}
+
+/* sezione About Us */
+
+
+
 /* RESPONSIVE TABLET */
 @media screen and (min-width:768px) {
     /* MAIN */
@@ -108,8 +122,16 @@ section{
         width: calc(100% / 3 * 2);
     }
 
+    /* sezione Benefits of working with us */
+    #benefits .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-    
+    #benefits .card{
+        width: calc(50% - 15px);
+    } 
     
 }
 
@@ -123,8 +145,6 @@ section{
         }
 
     /* HEADER */
-    
-
     #hamburger{
         display: none;
     }
@@ -156,6 +176,12 @@ section{
         background-color: brown;
         min-width: 300px;
     }
+
+    /* sezione Benefits of working with us */
+    #benefits .card{
+        width: calc(100% / 3 - 15px);
+    }
+
 
 
 
