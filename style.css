@@ -104,6 +104,17 @@ section{
     width: 90%;
 }
 
+/* sezione GET STARTED */
+#started{
+    background-color: #9792e4;
+    /* debug */
+    min-height: 200px;
+}
+
+#started .card{
+    text-align: center;
+}
+
 
 /* RESPONSIVE TABLET */
 @media screen and (min-width:768px) {
