@@ -39,7 +39,6 @@ body{
 
 /* regole button */
 button{
-    padding: 10px 50px;
     border-radius: 20px;
     background: none;
     border: none;
@@ -49,6 +48,12 @@ button.blue{
     background-color: #0084fd;
     color: white;
     font-size: 15px;
+    padding: 10px 50px;
+}
+
+button#nav-btn{
+    padding: 7px 15px;
+    background-color: white;
 }
 
 
@@ -73,7 +78,7 @@ p{
 
 /* HEADER */
 header{
-    height: 80px;
+    height: 60px;
     background-color: #0084fd;
 }
 
@@ -81,15 +86,17 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
     /* debug */
-    background-color: darkorchid;    
 }
 
 #logo, #menu{
     /* debug */
     min-width: 10%;
-    height: 40px;
-    background-color: blue;
+}
+
+#logo img{
+    width: 70%;
 }
 
 #menu{
@@ -97,7 +104,7 @@ header .container{
 }
 
 #hamburger{
-    /* debug */
+    font-size: 25px;
 }
 
 #menu #main-nav{
@@ -150,12 +157,8 @@ section{
 }
 
 /* sezione Benefits of working with us */
-#benefits{
-}
-
 
 /* sezione About Us */
-
 
 /* sezione GET STARTED */
 #started{
@@ -163,17 +166,11 @@ section{
     min-height: 200px;
 }
 
-#started .card{
-}
-
 /* footer */
 footer{
     background-color: #333333;
     /* debug */
     min-height: 200px;
-}
-
-footer .container{
 }
 
 
@@ -245,10 +242,14 @@ footer .container{
 
     #main-nav li{
         display: inline-block;
+        margin-left: 20px;
+        font-size: 15px;
         /* debug */
-        width: 20px;
-        height: 10px;
-        background-color: brown;
+    }
+
+    #main-nav li a{
+        color: white;
+        text-decoration: none;
     }
 
     /* section Get a demo application */
