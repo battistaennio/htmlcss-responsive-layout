@@ -19,7 +19,7 @@ body{
 .card{
     margin: 20px 0;
     border-radius: 15px;
-    padding: 30px 25px 0 25px;
+    padding: 20px 15px;
     /* debug */
     min-height: 160px;
     border: 2px solid black;
@@ -48,7 +48,7 @@ button.blue{
     background-color: #0084fd;
     color: white;
     font-size: 15px;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 
 button#nav-btn{
@@ -68,12 +68,20 @@ p{
     font-size: 14px;
 }
 
+h3{
+    font-size: 25px;
+}
+
 .txt-blue{
     color: #0084fd;
 }
 
 .txt-gray{
     color: #5e7385;
+}
+
+.txt-lilac{
+    color: #9792e4;
 }
 
 /* HEADER */
@@ -118,6 +126,7 @@ section{
 /* SECTION Get a demo application */
 #demo .card{
     background-color: #b5ddff;
+    padding: 30px 25px 0 25px;
 }
 
 
@@ -147,15 +156,35 @@ section{
 }
 
 /* section Strategic Planning */
+#strategic .immagine img{
+    width: 100%;
+}
 
+#strategic .testo{
+    margin-top: 40px;
+}
+
+#strategic .card.white{
+    border-radius: 40px;
+    color: black;
+    text-align: center;
+}
+
+#arrw-dwn{
+    display: inline-block;
+    background-color: #9792e4;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height:50px;
+}
 
 /* section We are committed experts partners */
-
 #partners .card{
+    text-align: center;
     /* debug */
     border: 2px solid black;
 }
-
 /* sezione Benefits of working with us */
 
 /* sezione About Us */
@@ -255,6 +284,7 @@ footer{
     /* section Get a demo application */
     #demo .card.big{
         display: flex;
+        justify-content: space-between;
     }
 
     #demo .testo{
