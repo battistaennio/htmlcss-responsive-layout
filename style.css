@@ -297,18 +297,16 @@ footer{
 
     /* section Strategic Planning */
     #strategic .container{
+        width: 50%;
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
+        gap: 30px;
         /* debug */
-        height: 400px;
-        background-color: burlywood;
     }
 
-    #strategic .card{
-        /* debug */
-        background-color: brown;
-        min-width: 300px;
+    #strategic h3{
+        margin-top: 100px;
     }
 
     /* sezione Benefits of working with us */
