@@ -19,7 +19,7 @@ body{
     margin-top: 5vh;
 }
 
-.card{
+.col{
     margin: 20px 0;
     border-radius: 15px;
     padding: 20px 15px;
@@ -42,6 +42,10 @@ button{
     border-radius: 20px;
     background: none;
     border: none;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 button.blue{
@@ -149,6 +153,11 @@ header .container{
     font-size: 25px;
 }
 
+#hamburger:hover{
+    cursor: pointer;
+}
+
+
 #menu #main-nav{
     display: none;
 }
@@ -158,7 +167,7 @@ section{
     padding: 5% 0;
 }
 /* SECTION Get a demo application */
-#demo .card{
+#demo .col{
     background-color: #b5ddff;
     padding: 30px 25px 0 25px;
 }
@@ -198,7 +207,7 @@ section{
     margin-top: 40px;
 }
 
-#strategic .card.white{
+#strategic .col.white{
     border-radius: 40px;
     color: black;
     text-align: center;
@@ -213,8 +222,13 @@ section{
     line-height:50px;
 }
 
+#arrw-dwn:hover{
+    cursor: pointer;
+}
+
+
 /* section We are committed experts partners */
-#partners .card{
+#partners .col{
     text-align: center;
 }
 
@@ -229,7 +243,7 @@ section{
     color: black;
 }
 
-#partners .card.lilac{
+#partners .col.lilac{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -305,22 +319,22 @@ footer a{
     /* MAIN */
 
     /* section Get a demo application */
-    #demo .card-row{
+    #demo .col-row{
         display: flex;
         gap: 20px;
     }
 
-    #demo .card{
+    #demo .col{
         width: calc(100% / 3 - 10px);
         margin-bottom: 20px;
     }
 
-    #demo .card.big{
+    #demo .col.big{
         width: calc(100% / 3 * 2);
     }
 
     /* sezione We are committed experts partners */
-    #partners .card.lilac{
+    #partners .col.lilac{
         justify-content: space-around;
     }
 
@@ -335,7 +349,7 @@ footer a{
         flex-wrap: wrap;
     }
 
-    #benefits .card{
+    #benefits .col{
         width: calc(50% - 15px);
     } 
 
@@ -347,11 +361,11 @@ footer a{
         align-items: flex-start;
     }
 
-    #about .card{
+    #about .col{
         width: 35%;
     }
 
-    #about .card.big{
+    #about .col.big{
         width: 60%;
     }
     
@@ -386,8 +400,13 @@ footer a{
         text-decoration: none;
     }
 
+    #main-nav li a:hover{
+        text-decoration: underline;
+    }
+
+
     /* section Get a demo application */
-    #demo .card.big{
+    #demo .col.big{
         display: flex;
         justify-content: space-between;
     }
@@ -414,7 +433,7 @@ footer a{
     }
 
     /* sezione Benefits of working with us */
-    #benefits .card{
+    #benefits .col{
         width: calc(100% / 3 - 15px);
     }
 
