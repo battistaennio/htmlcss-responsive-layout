@@ -13,16 +13,12 @@ body{
 .container{
     margin: 0 auto;
     width: 85%;
-    /* debug */
 }
 
 .card{
     margin: 20px 0;
     border-radius: 15px;
     padding: 20px 15px;
-    /* debug */
-    min-height: 160px;
-    border: 2px solid black;
 }
 
 .lilac{
@@ -63,12 +59,21 @@ button#nav-btn{
     background-color: white;
 }
 
+button#get{
+    padding: 15px 50px;
+    background-color: white;
+    color: #9792e4;
+
+}
+
 
 /* regole testo */
+
 h2{
     font-size: 50px;
     color: #9792e4;
 }
+
 
 h3{
     font-size: 25px;
@@ -121,12 +126,6 @@ header .container{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    /* debug */
-}
-
-#logo, #menu{
-    /* debug */
-    min-width: 10%;
 }
 
 #logo img{
@@ -208,8 +207,6 @@ section{
 /* section We are committed experts partners */
 #partners .card{
     text-align: center;
-    /* debug */
-    border: 2px solid black;
 }
 
 #partners h3{
@@ -263,16 +260,34 @@ section{
 }
 
 /* sezione GET STARTED */
-#started{
-    /* debug */
-    min-height: 200px;
+#free{
+    color: #fdc15f;
+    font-size: 50px;
+    margin: 30px 0;
 }
+
+#started a{
+    color: white;
+}
+
 
 /* footer */
 footer{
     background-color: #333333;
-    /* debug */
-    min-height: 200px;
+}
+
+footer .container{
+    padding: 40px 0;
+}
+
+footer span{
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+footer a{
+    color: #9792e4;
 }
 
 
@@ -355,7 +370,6 @@ footer{
         display: inline-block;
         margin-left: 20px;
         font-size: 15px;
-        /* debug */
     }
 
     #main-nav li a{
@@ -384,7 +398,6 @@ footer{
         justify-content: space-between;
         align-items: flex-end;
         gap: 30px;
-        /* debug */
     }
 
     #strategic h3{
