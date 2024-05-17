@@ -215,7 +215,6 @@ section{
     flex-wrap: wrap;
     color: white;
     border-radius: 40px;
-
 }
 /* sezione Benefits of working with us */
 
@@ -252,6 +251,15 @@ footer{
 
     #demo .card.big{
         width: calc(100% / 3 * 2);
+    }
+
+    /* sezione We are committed experts partners */
+    #partners .card.lilac{
+        justify-content: space-around;
+    }
+
+    #partners .testo{
+        width: 60%;
     }
 
     /* sezione Benefits of working with us */
