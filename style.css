@@ -15,6 +15,10 @@ body{
     width: 85%;
 }
 
+#under-header{
+    margin-top: 5vh;
+}
+
 .card{
     margin: 20px 0;
     border-radius: 15px;
@@ -119,6 +123,11 @@ p{
 header{
     height: 60px;
     background-color: #0084fd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100vw;
 }
 
 header .container{
